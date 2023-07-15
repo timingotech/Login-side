@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(38, 131, 223);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    justify-content:center;
+    text-align: center;
+    background-color:white;
+    width: 10cm;
+    margin-left: 12.5cm;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+    padding: 20px 10px 50px 10px;
+    border-radius: 10px;
+}
+.loginform .email_login,
+.loginform .password_login{
+    padding: 10px 5px;
+    padding-right: 100px;
+    border: 2px solid rgb(38, 131, 223);
+    border-radius: 5px;
+}
+.loginform label{
+    font-size: 14px;
+    color: rgb(41, 115, 189);
+}
+.loginform .email_login{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.loginform .password_login{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.loginlabel1{
+    margin-left: -230px;
+}
+.loginlabel2{
+    margin-left: -210px;
+}
+.rememberlogin{
+    display: flex;
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+.rememberlogin a{
+    margin-left: 38px;
+    border: none;
+}
+.loginpagebtn .loginbtn{
+    padding: 12px 44px;
+    margin-right: -2px;
+    background-color: aqua;
+    border: 0px;
+    cursor: pointer;
+}
+.loginpagebtn .registerbtn
+{
+    padding: 12px 40px;
+    margin-left: -2px;
+    background-color: rgb(65, 198, 198);
+    border: 0px;
+    cursor: pointer;
+}
+.loginpagebtn .loginbtn:hover{
+    background-color:rgb(158, 228, 228) ;
+}
+.loginpagebtn .registerbtn:hover{
+    background-color:rgb(158, 228, 228) ;
+}
+
+.loginform .icon {
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top:-33px;
+  }
+  
+  .loginform .icon.hide {
+    display: none;
+  }
+
+/* Sign up page */
+.signupform .email_signup,
+.signupform .number_signup,
+.signupform .username_signup,
+.signupform .password_signup{
+    padding: 10px 5px;
+    padding-right: 100px;
+    border: 2px solid rgb(38, 131, 223);
+    border-radius: 5px;
+}
+.signupform .email_signup,
+.signupform .number_signup,
+.signupform .username_signup,
+.signupform .password_signup{
+    margin-bottom: 7px;
+}
+.haveacccountlogin a:hover{
+    color: rgb(60, 196, 196);
+}
+.signuppagebtn .registerbtn
+{
+    padding: 12px 40px;
+    margin-left: -2px;
+    background-color: rgb(65, 198, 198);
+    border: 0px;
+    cursor: pointer;
+}
+.signuppagebtn .registerbtn:hover{
+    background-color:rgb(158, 228, 228) ;
+}
+.signupform .icon {
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top:-28px;
+  }
+  
+  .signupform .icon.hide {
+    display: none;
+  }
+
+
+.success_img{
+    margin-left: 14cm;
+}
+.text-glow {
+    font-weight: bold;
+    animation: textGlow 2s ease-in-out infinite;
+  }
+  .success h4{
+        text-align: center;
+        color: rgb(233, 237, 241);
+  }
+  @keyframes textGlow {
+    0% {
+      text-shadow: 0 0 10px #ff0000;
+      color: #ff0000;
+    }
+    25% {
+      text-shadow: 0 0 10px #00ff00;
+      color: #00ff00;
+    }
+    50% {
+      text-shadow: 0 0 10px #0000ff;
+      color: #0000ff;
+    }
+    75% {
+      text-shadow: 0 0 10px #ffff00;
+      color: #ffff00;
+    }
+    100% {
+      text-shadow: 0 0 10px #ff00ff;
+      color: #ff00ff;
+    }
+  }
+  .moving-text {
+    color: rgb(233, 237, 241);
+    margin-top: 100px;
+    margin-left: 19.8cm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    animation: moveUpDown 0.6s ease-in-out infinite;
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      transform: translate(-50%, -70%);
+    }
+  }
+  @media (max-width: 750px) {
+    .container{
+        margin-top: 9rem;
+        margin-left: 0px;
+    }
+  }
