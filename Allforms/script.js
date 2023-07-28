@@ -12,3 +12,5 @@ hidePasswordIcon.addEventListener('click', function() {
     hidePasswordIcon.style.display = 'none';
     showPasswordIcon.style.display = 'inline-block';
   });
+  
+

@@ -170,6 +170,7 @@ a{
     font-size: 24px;
     animation: moveUpDown 0.6s ease-in-out infinite;
   }
+  
 
   @keyframes moveUpDown {
     0%, 100% {
@@ -179,9 +180,12 @@ a{
       transform: translate(-50%, -70%);
     }
   }
+
+  
   @media (max-width: 750px) {
     .container{
         margin-top: 9rem;
         margin-left: 0px;
     }
+
   }
