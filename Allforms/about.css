@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.oneabout{
+    color: white;
+    text-align: center;
+    background-image: url(img/techbg.jpg);
+    height: 4cm;
+}
+.oneabout h1{
+    padding-top: 20px;
+}
+.oneabout p{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.secondsec{
+    text-align: center;
+    background-color: rgb(38, 131, 223);
+    margin-top: 10px;
+}
+.secondsec a{
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.whoweare{
+    text-align: center;
+    margin-top: 30px;
+}
+.whoweare img{
+    width: 7cm;
+    height: 7.5cm;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.whoweare p{
+    width: 7cm;
+    text-align: left;
+}
+.wearemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+.wearetext{
+    margin-left: 1.5cm;
+    width: 7cm;
+    margin-top: 20px;
+    background-color: rgb(38, 131, 223);
+    padding:0px 20px 20px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.team{
+    text-align: center;
+    margin-top: 30px;
+}
+.team p{
+    margin-left:200px ;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgb(38, 131, 223);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+.work h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align:center ;
+}
+.imagetext img{
+    width: 15cm;
+    border-radius:5px ;
+}
+.imagetext{
+    display: flex;
+    width: 29cm;
+    height: 12cm;
+    margin-left: 2cm;
+    background-color: rgb(38, 131, 223);
+    padding:20px;
+    border-radius: 5px;
+    color: white;
+}
+.workpara{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.intouch{
+    margin-top: 30px;
+    text-align: center;
+}
+.intouch h2{
+    margin-bottom: 20px;
+}
+.aboutform{
+    padding-top: 30px;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    border-radius: 5px;
+    background-color: rgb(38, 131, 223);
+    margin-bottom: 50px;
+}
+#fullname, #email{
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border:none ;
+    border-radius: 5px;
+}
+#msg{
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border:none ;
+    border-radius: 5px;
+}
+#submitbtn{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border:none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 750px) {
+    .oneabout{
+        color: white;
+        text-align: center;
+        background-image: url(img/techbg.jpg);
+        height: 7cm;
+    }
+    .oneabout p{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .secondsec a:first-child{
+        margin-left: 2.1px;
+    }
+    .wearemain{
+        display: block;
+        margin-left: 0px;
+    }
+    .team p{
+        margin-left:20px ;
+        margin-right: 20px;
+    }
+    .work h2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align:center ;
+    }
+    .imagetext img{
+        width: 8.8cm;
+        border-radius:5px ;
+    }
+    .imagetext{
+        display: block;
+        width: 9cm;
+        height: 21cm;
+        margin-left: 17px;
+    }
+    .workpara{
+        width: 8cm;
+        margin-left: 10px;
+    }
+    .aboutform{
+        padding-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    #fullname, #email{
+        width: 300px;
+        height: 20px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border:none ;
+        border-radius: 5px;
+    }
+    #msg{
+        width: 300px;
+        height: 25px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border:none ;
+        border-radius: 5px;
+    }
+}
