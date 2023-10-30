@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+
+}
+
+body{
+    background-color: white(242, 242, 242, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.container{
+    margin:1px auto;
+    max-width: 500px;
+    height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(255, 255, 255);
+     
+}
+
+.exit-icon{
+    float: left;
+     position: absolute;
+     top: 20px;
+     left: 598px;
+     margin-left: -180px;
+}
+.section-a{
+    width: 468px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    height: 214px;
+    padding: 16px;
+    display: inline-block;
+   justify-content: center;
+   text-align: center;
+   background-color:rgba(194, 59, 250, 1);
+   color: white;
+    
+}
+
+p{
+    padding-block: 6px;
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-inline: auto;
+    overflow: hidden;
+   
+}
+
+profile-pic img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-inline: auto;
+}
+
+.section-b{
+    width: 400px;
+    height: 94px;
+    background-color:white;
+    margin-top: -70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.icon{
+    text-align: center;
+    margin-inline: 0;
+   padding-inline: 20px;
+
+   
+}
+
+.section-c{
+    width: 400px;
+    margin-inline: auto;
+    height: 390px;
+   background-color:rgb(255, 255, 255);
+   color: rgb(7, 7, 7);
+   margin-top: 50px;
+   /* border: 1px solid black; */
+}
+
+/* .icon-left{
+    float: left;
+    margin-top: 30px;
+}
+
+.icon-right{
+    float: right;
+    margin-top: -20px;
+}
+
+.text{
+
+    padding: 0 15px;
+    margin-top:25px;
+    margin-left:30px;
+} */
+
+svg{
+    fill: fff;
+}
+
+.icon-left{
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    
+}
+
+.icon-right3{
+    margin-left: 120px;
+}
+.icon-right1{
+    margin-left: 238.2px;
+}
+.icon-right2{
+    margin-left: 283px;
+}
+
+.icon-right4{
+    margin-left: 297px;
+}
+
+.icon-right5{
+    margin-left: 210px;
+}
+
+.text{
+
+    text-wrap: nowrap;
+    
+}
+
+.container-1{
+    width:400px ;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+.container-2{
+    width:400px ;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -490px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+.container-3{
+    width:400px ;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -490px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+.container-4{
+    width:400px ;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -490px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+
+.container-5{
+    width:400px ;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -490px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+
+
+.badge{
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 2px 2px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+    right: 510px;
+
+}
+
+
+.badge-2{
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 2px 2px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+    right: 623px;
+
+}
+
+.badge-3{
+    background-color: rgb(3, 228, 40);
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 2px 2px;
+    width: 35px;
+    height: 12px;
+    border-top-left-radius: 50%;
+    border-top: 0%S;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1px;
+    right: -350px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .section-b{
+        margin-left: 50px;
+    }
+    .section-c{
+        margin-left: 50px;
+    }
+}
