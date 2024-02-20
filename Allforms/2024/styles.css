@@ -1,0 +1,127 @@
+.navbar-part1 h1{
+    color: #EE3E38;
+}
+.navbar-part1 {
+    display: flex;   
+}
+.slider-container div {
+    flex: none;
+    grid-template-columns: auto auto auto;
+}
+.slider-container::-webkit-scrollbar{
+    display: none;
+}
+.blog-content::-webkit-scrollbar{
+    display: none;
+}
+.blog-content{
+    flex: none;
+    grid-template-columns: auto auto auto;
+}
+
+.blog-content div p{
+    width: 350px;
+}
+.blog-content{
+    overflow-x:scroll ;
+}
+.slider-container{
+    overflow-x:scroll ;
+}
+.shadowbox {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+@media (max-width: 700px) {
+    .fa-location-dot{
+        margin-left: 75px;
+    }
+    #menu{
+        padding:30px 0 ;
+        text-align: center;
+    }
+    #menu a{
+        font-size: 20px;
+        color: #EE3E38;
+    }
+    #menu h1{
+        margin-left: 10px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .cart-persona i{
+        color: #EE3E38;
+    }
+    #menu i{
+        margin-left: -210px;
+    }
+    .first-pic img{
+        width: 250px;
+        height: 250px;
+    }
+    nav h1{
+        font-size: 10px;
+    }
+    .searchnav{
+        margin-right: 30px;
+    }
+    .cart-persona{
+        display: none;
+    }
+    .testimonial-image{
+        margin-left: 140px;
+    }
+    .greater{
+        display: none;
+    }
+    .section1 img{
+        width: 138px;
+        height: 138px;
+    }
+    .text-home h1{
+        font-size: 17px;
+        margin-left: 20px;
+        width: 300px;
+        margin-top: 34px;
+    }
+    .text-home h3{
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 75px;
+        width: 300px;
+
+    }
+    .home-services{
+        text-align: center;
+    }
+    .line{
+        margin-left: 140px;
+    }
+    .toprated-service{
+        text-align: center;
+    }
+    .trending-service{
+        text-align: center;
+    }
+    .blog-name{
+        text-align: center;
+    }
+    .blog .line{
+        width: 63px;
+        margin-left: 165px;
+    }
+    .nosmall{
+        display: none;
+    }
+    .smallscreenmedia{
+        text-align: center;
+    }
+    .smallscreenmediamain{
+        justify-content: center;
+    }
+    .smallscreenmediamain a{ 
+        font-size: 30px;
+    }
+    .smallscreenmedianodisplay{
+        display: none;
+    }
+}
